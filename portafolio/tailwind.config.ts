@@ -11,8 +11,9 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-         'crystal-blue': 'rgba(173, 216, 230, 0.5)'
+        'neon-blue': '#1E90FF'
       },
+      
     },
   },
   plugins: [],
