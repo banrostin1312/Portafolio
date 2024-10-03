@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
             sm:flex-row sm:gap-24 font-serif lg:gap-28
             ">
                 <Link href="/" className="hover:text-neon-blue"><li>Home</li></Link>
-                <Link href="/aboutme" className="hover:text-neon-blue"><li>About Me</li></Link>
+                <Link href="/projects" className="hover:text-neon-blue"><li>Projects</li></Link>
                 <Link href="" className="hover:text-neon-blue"><li>Experience</li></Link>
             </ul>
 
