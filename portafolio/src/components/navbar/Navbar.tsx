@@ -13,8 +13,8 @@ const Navbar: React.FC = () => {
     const toggleSidebar = () => {
         setIsOpen(!isOpen);
     };
-    
-      
+
+
 
     return (
         <div>
@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
                     <Image src={"/assets/genetic.png"} alt="Gentic logo" height={110} width={110} className="hover:cursor-pointer
                     transform transition-transform duration-500 hover:scale-75
                     "
-                     />
+                    />
                 </div>
 
                 {/* Links del Navbar para pantallas grandes */}
@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
                     </button>
                 </div>
             </ul>
-<div className="mt-44"></div>
+            <div className="mt-44"></div>
             {/* Sidebar para pantallas pequeñas */}
             <div className={`fixed top-0 right-0 w-64 h-full bg-white bg-opacity-10 backdrop-blur-lg shadow-lg transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out z-50`}>
                 <button className="absolute top-4 right-4 text-white" onClick={toggleSidebar}>
@@ -54,9 +54,9 @@ const Navbar: React.FC = () => {
                     </svg>
                 </button>
                 <div className="flex flex-col gap-8 mt-20 ml-6 text-white text-lg">
-                    <Link href="/" className="hover:text-neon-blue"><li onClick={toggleSidebar}>Home</li></Link>
-                    <Link href="/projects" className="hover:text-neon-blue"><li onClick={toggleSidebar}>Projects</li></Link>
-                    <Link href="" className="hover:text-neon-blue"><li onClick={toggleSidebar}>Experience</li></Link>
+                    <Link href="/" className="hover:text-cyan-900"><li onClick={toggleSidebar}>Home</li></Link>
+                    <Link href="/projects" className="hover:text-cyan-900"><li onClick={toggleSidebar}>Projects</li></Link>
+                    <Link href="" className="hover:text-cyan-900"><li onClick={toggleSidebar}>Experience</li></Link>
                 </div>
             </div>
         </div>
