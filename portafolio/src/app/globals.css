@@ -2,16 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-html,body{
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-image: url('../../public/assets/nebula.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+    background-attachment: fixed;
 }
+@layer utilities {
+    .navlink-gradient {
+      background: linear-gradient(to right, white 33%, rgb(244, 0, 0) 66%, rgb(72, 0, 255) 100%);
+      background-size: 300% 100%;
+      background-position: 0 0;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: background-position 0.4s ease;
+    }
+  
+    .navlink-gradient-hover {
+      background-position: -200% 0;
+    }
+  }
+  
