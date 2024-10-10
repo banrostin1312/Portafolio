@@ -3,7 +3,6 @@
 import Link from "next/link"
 import Image from "next/image"
 import { useState } from "react"
-import { useEffect } from "react"
 
 
 const Navbar: React.FC = () => {
@@ -20,18 +19,18 @@ const Navbar: React.FC = () => {
     return (
         <div>
             {/* Barra de navegación */}
-            <ul className="flex flex-col justify-between items-center gap-2 bg-white bg-opacity-5 backdrop-blur-lg m-10 p-4 rounded-md md:max-h-20 text-lg text-white
-            sm:flex-row sm:gap-24 font-serif lg:gap-28 w-[90%]
+            <ul className="fixed top-0 left-0 z-50 flex flex-col justify-between items-center gap-2 bg-white bg-opacity-5 backdrop-blur-[2.5px] rounded-md md:max-h-28  text-white
+            sm:flex-row sm:gap-24 font-serif lg:gap-28 w-[100%]
             ">
-                <div className="flex-shrink-0 hover:bg-white hover:bg-opacity-35 rounded-full transition-colors duration-500">
-                    <Image src={"/assets/genetic.png"} alt="Gentic logo" height={120} width={120} className="hover:cursor-pointer
+                <div className="flex-shrink-0 hover:bg-white hover:bg-opacity-35 rounded-full transition-colors duration-500 ">
+                    <Image src={"/assets/genetic.png"} alt="Gentic logo" height={110} width={110} className="hover:cursor-pointer
                     transform transition-transform duration-500 hover:scale-75
                     "
                      />
                 </div>
 
                 {/* Links del Navbar para pantallas grandes */}
-                <div className="hidden md:flex md:gap-16 md:mr-8 text-xl">
+                <div className="hidden md:flex md:gap-16 md:mr-8 text-2xl">
                     <Link href="/" className="navlink-gradient hover:navlink-gradient-hover"><li>Home</li></Link>
                     <Link href="/projects" className="navlink-gradient hover:navlink-gradient-hover"><li>Projects</li></Link>
                     <Link href="" className="navlink-gradient hover:navlink-gradient-hover"><li>Experience</li></Link>
@@ -46,7 +45,7 @@ const Navbar: React.FC = () => {
                     </button>
                 </div>
             </ul>
-
+<div className="mt-44"></div>
             {/* Sidebar para pantallas pequeñas */}
             <div className={`fixed top-0 right-0 w-64 h-full bg-white bg-opacity-10 backdrop-blur-lg shadow-lg transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out z-50`}>
                 <button className="absolute top-4 right-4 text-white" onClick={toggleSidebar}>
