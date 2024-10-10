@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
                 </div>
 
                 {/* Links del Navbar para pantallas grandes */}
-                <div className="hidden md:flex md:gap-16 md:mr-8 text-2xl">
+                <div className="hidden md:flex md:gap-10 md:mr-8 text-2xl">
                     <Link href="/" className="navlink-gradient hover:navlink-gradient-hover"><li>Home</li></Link>
                     <Link href="/projects" className="navlink-gradient hover:navlink-gradient-hover"><li>Projects</li></Link>
                     <Link href="" className="navlink-gradient hover:navlink-gradient-hover"><li>Experience</li></Link>
