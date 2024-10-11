@@ -23,10 +23,10 @@ const Navbar: React.FC = () => {
             sm:flex-row sm:gap-24 font-serif lg:gap-28 w-[100%]
             ">
                 <div className="flex-shrink-0 hover:bg-white hover:bg-opacity-35 rounded-full transition-colors duration-500 ">
-                    <Image src={"/assets/genetic.png"} alt="Gentic logo" height={110} width={110} className="hover:cursor-pointer
+                    <Link href={"/"}><Image src={"/assets/genetic.png"} alt="Gentic logo" height={110} width={110} className="hover:cursor-pointer
                     transform transition-transform duration-500 hover:scale-75
                     "
-                    />
+                    /></Link>
                 </div>
 
                 {/* Links del Navbar para pantallas grandes */}
