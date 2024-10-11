@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 //Components
 import Navbar from "../components/navbar/Navbar";
+import RocketUp from "../components/rocket-scroll-up/RocketUp";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,6 +33,7 @@ export default function RootLayout({
       >
       <Navbar/>
         {children}
+        <RocketUp/>
       </body>
     </html>
   );
