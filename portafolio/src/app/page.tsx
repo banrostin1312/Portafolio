@@ -1,5 +1,3 @@
-//Components
-import Navbar from "../components/navbar/Navbar";
 //vendors
 import Image from "next/image";
 
