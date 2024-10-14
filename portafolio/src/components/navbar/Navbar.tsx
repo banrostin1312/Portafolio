@@ -55,7 +55,6 @@ const Navbar: React.FC = () => {
                 <div className="flex flex-col gap-8 mt-20 ml-6 text-white text-lg">
                     <Link href="/" className="hover:text-cyan-900"><li onClick={toggleSidebar}>Home</li></Link>
                     <Link href="/projects" className="hover:text-cyan-900"><li onClick={toggleSidebar}>Projects</li></Link>
-                    <Link href="" className="hover:text-cyan-900"><li onClick={toggleSidebar}>Experience</li></Link>
                 </div>
             </div>
         </div>
