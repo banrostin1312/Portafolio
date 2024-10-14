@@ -5,7 +5,7 @@ import { projects } from "@/src/helpers/projects";
 import Project from "@/src/components/project/Project";
 //Interfaces
 import { IProject } from "@/src/interfaces/project";
-//Vendors
+//Library
 import { motion } from "framer-motion"
 
 
