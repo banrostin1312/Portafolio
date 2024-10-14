@@ -41,7 +41,7 @@ export default function Home() {
             "/></li>
             </div>
             <div className="space-y-2">
-              <h1>CSS</h1>
+              <h1>CSS .</h1>
               <li><Image src={"/assets/css-icon.png"} alt="" width={120} height={120} className="
             transform transition-transform duration-300 hover:scale-125 max-w-[100px] sm:max-w-[120px]
             "/></li>
