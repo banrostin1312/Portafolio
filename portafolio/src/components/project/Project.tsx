@@ -12,10 +12,10 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
     return (
         <div className=" bg-black bg-opacity-65 rounded-lg shadow-lg p-6 w-[90%] text-white space-y-4">
             <h2 className="text-2xl">{nombre}</h2>
-            <p className="text-gray-200">{descripcion}</p>
-            <p>Front: {front}</p>
-            <p>Back: {back}</p>
-            <p>BaseDeDatos: {basededatos}</p>
+            <p className="text-white">{descripcion}</p>
+            <p><strong>FrontEnd:</strong> {front}</p>
+            <p><strong>BackEnd:</strong>{back}</p>
+            <p><strong>DataBase:</strong> {basededatos}</p>
             <p><a href={repositorio} className="repolink p-4">View Repositorie</a></p>
         </div>
     )

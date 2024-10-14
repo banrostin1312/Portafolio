@@ -22,7 +22,7 @@ export default function Home() {
               <a href="/assets/Cv-Andres-Rodriguez-Jimenez-E.pdf"
 
               ><Image src={"/assets/pdf-icon.png"} alt="" height={90} width={90} 
-              className="transform transition-transform duration-300 hover:scale-125"
+              className="transform transition-transform duration-300 hover:translate-y-[-10px]"
               /></a>
             </div>
 
@@ -31,7 +31,7 @@ export default function Home() {
               <a href="/assets/Cv-Andres-Rodriguez-Jimenez-I.pdf"
 
               ><Image src={"/assets/pdf-icon.png"} alt="" height={90} width={90} 
-              className="transform transition-transform duration-300 hover:scale-125"
+              className="transform transition-transform duration-300 hover:translate-y-[-10px]"
               /></a>
             </div>
           </div>
@@ -50,55 +50,55 @@ export default function Home() {
             <div className="space-y-2">
               <h1>React</h1>
               <li><Image src={"/assets/react-icon.png"} alt="" width={120} height={120} className="
-            transform transition-transform duration-300 hover:scale-125 max-w-[100px] sm:max-w-[120px]
+            transform transition-transform duration-300 hover:translate-y-[-10px] max-w-[100px] sm:max-w-[120px]
             "/></li>
             </div>
             <div className="space-y-2">
               <h1>JavaScript</h1>
               <li> <Image src={"/assets/js-icon.png"} alt="" width={120} height={120} className="
-            transform transition-transform duration-300 hover:scale-125 max-w-[100px] sm:max-w-[120px]
+            transform transition-transform duration-300 hover:translate-y-[-10px] max-w-[100px] sm:max-w-[120px]
             " /></li>
             </div>
             <div className="space-y-2">
               <h1>TypeScript</h1>
               <li><Image src={"/assets/typescript-icon.png"} alt="" width={120} height={120} className="
-            transform transition-transform duration-300 hover:scale-125 max-w-[100px] sm:max-w-[120px]
+            transform transition-transform duration-300 hover:translate-y-[-10px] max-w-[100px] sm:max-w-[120px]
             "/></li>
             </div>
             <div className="space-y-2">
               <h1>CSS .</h1>
               <li><Image src={"/assets/css-icon.png"} alt="" width={120} height={120} className="
-            transform transition-transform duration-300 hover:scale-125 max-w-[100px] sm:max-w-[120px]
+            transform transition-transform duration-300 hover:translate-y-[-10px] max-w-[100px] sm:max-w-[120px]
             "/></li>
             </div>
             <div className="space-y-4">
               <h1>NextJs</h1>
               <li><Image src={"/assets/next-icon.png"} alt="" width={120} height={120} className="
-            transform transition-transform duration-300 hover:scale-125 max-w-[100px] sm:max-w-[120px]
+            transform transition-transform duration-300 hover:translate-y-[-10px] max-w-[100px] sm:max-w-[120px]
             "/></li>
             </div>
             <div className="space-y-4">
               <h1>Express</h1>
               <li><Image src={"/assets/express-icon.png"} alt="" width={120} height={120} className="
-            transform transition-transform duration-300 hover:scale-125 max-w-[100px] sm:max-w-[120px]
+            transform transition-transform duration-300 hover:translate-y-[-10px] max-w-[100px] sm:max-w-[120px]
             "/></li>
             </div>
             <div className="space-y-4">
               <h1>Node</h1>
               <li><Image src={"/assets/node-icon.png"} alt="" width={120} height={120} className="
-            transform transition-transform duration-300 hover:scale-125 max-w-[100px] sm:max-w-[120px]
+            transform transition-transform duration-300 hover:translate-y-[-10px] max-w-[100px] sm:max-w-[120px]
             "/></li>
             </div>
             <div className="space-y-4">
               <h1>HTML</h1>
               <li><Image src={"/assets/html-icon.png"} alt="" width={120} height={120} className="
-            transform transition-transform duration-300 hover:scale-125 max-w-[100px] sm:max-w-[120px]
+            transform transition-transform duration-300 hover:translate-y-[-10px] max-w-[100px] sm:max-w-[120px]
             "/></li>
             </div>
             <div className="space-y-4">
               <h1>TailWind</h1>
               <li><Image src={"/assets/tailwind-icon.png"} alt="" width={120} height={120} className="
-            transform transition-transform duration-300 hover:scale-125 max-w-[100px] sm:max-w-[120px]
+            transform transition-transform duration-300 hover:translate-y-[-10px] max-w-[100px] sm:max-w-[120px]
             "/></li>
             </div>
             <div className="w-full border-b-2 border-x-cyan-50 opacity-75"></div>
@@ -111,13 +111,13 @@ export default function Home() {
                 <div className="space-y-4">
                   <h1>Vercel</h1>
                   <li><Image src={"/assets/vercel-icon2.png"} alt="" width={120} height={120} className="
-            transform transition-transform duration-300 hover:scale-125 max-w-[100px] sm:max-w-[120px]
+            transform transition-transform duration-300 hover:translate-y-[-10px] max-w-[100px] sm:max-w-[120px]
             "/></li>
                 </div>
                 <div className="space-y-4">
                   <h1>Render</h1>
                   <li><Image src={"/assets/render-icon.png"} alt="" width={120} height={120} className="
-            transform transition-transform duration-300 hover:scale-125 max-w-[100px] sm:max-w-[120px]
+            transform transition-transform duration-300 hover:translate-y-[-10px] max-w-[100px] sm:max-w-[120px]
             "/></li>
                 </div>
               </ul>
@@ -128,13 +128,13 @@ export default function Home() {
                 <div className="space-y-4">
                   <h1>PostgresSQL</h1>
                   <li><Image src={"/assets/postgres-icon.png"} alt="" width={120} height={120} className="
-            transform transition-transform duration-300 hover:scale-125 max-w-[100px] sm:max-w-[120px]
+            transform transition-transform duration-300 hover:translate-y-[-10px] max-w-[100px] sm:max-w-[120px]
             "/></li>
                 </div>
                 <div className="space-y-4">
                   <h1>MongoDB</h1>
                   <li><Image src={"/assets/mongo-icon.png"} alt="" width={120} height={120} className="
-            transform transition-transform duration-300 hover:scale-125 max-w-[100px] sm:max-w-[120px]
+            transform transition-transform duration-300 hover:translate-y-[-10px] max-w-[100px] sm:max-w-[120px]
             "/></li>
                 </div>
               </ul>
