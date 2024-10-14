@@ -42,6 +42,20 @@ body {
         transform: rotate(360deg);
       }
     }
+    .repolink {
+      background: linear-gradient(to right, white 50%, blue 50%);
+      background-size: 200% 100%;
+      background-position: left;
+      transition: background-position 0.2s ease;
+      color: black; /* Color del texto inicial */
+      display: inline-block; /* Para que el enlace ocupe el espacio del padding */
+      text-align: center; /* Centrar el texto */
+    }
+    
+    .repolink:hover {
+      background-position: right;
+      color: white; /* Color del texto al hacer hover */
+    }
     
   }
   
