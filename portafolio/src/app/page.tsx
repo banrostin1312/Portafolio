@@ -15,13 +15,13 @@ export default function Home() {
             Estoy especialmente interesado en seguir aprendiendo y aplicar mis conocimientos en proyectos desafiantes que me permitan crecer como profesional. Disfruto colaborar en equipos dinámicos donde la creatividad y la eficiencia son claves para el éxito.
           </p>
           <h1 className="text-3xl whitespace-nowrap text-white p-5 text-center">Curriculum Vitae</h1>
-          <div className="flex flex-col mb-4 md:flex-row gap-8 text-xl">
+          <div className="flex flex-row mb-4 gap-8 text-xl text-white">
 
             <div className="flex flex-col items-center space-y-4">
               <h1>Español</h1>
               <a href="/assets/Cv-Andres-Rodriguez-Jimenez-E.pdf"
 
-              ><Image src={"/assets/pdf-icon.png"} alt="" height={100} width={100} 
+              ><Image src={"/assets/pdf-icon.png"} alt="" height={90} width={90} 
               className="transform transition-transform duration-300 hover:scale-125"
               /></a>
             </div>
@@ -30,7 +30,7 @@ export default function Home() {
               <h1>Ingles</h1>
               <a href="/assets/Cv-Andres-Rodriguez-Jimenez-I.pdf"
 
-              ><Image src={"/assets/pdf-icon.png"} alt="" height={100} width={100} 
+              ><Image src={"/assets/pdf-icon.png"} alt="" height={90} width={90} 
               className="transform transition-transform duration-300 hover:scale-125"
               /></a>
             </div>
