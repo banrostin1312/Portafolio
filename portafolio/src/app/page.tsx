@@ -20,19 +20,19 @@ export default function Home() {
             <div className="flex flex-col items-center space-y-4">
               <h1>Español</h1>
               <a href="/assets/Cv-Andres-Rodriguez-Jimenez-E.pdf"
-
-              ><Image src={"/assets/pdf-icon.png"} alt="" height={90} width={90} 
-              className="transform transition-transform duration-300 hover:translate-y-[-10px]"
-              /></a>
+              target="_blanked"
+              ><Image src={"/assets/pdf-icon.png"} alt="" height={90} width={90}
+                className="transform transition-transform duration-300 hover:translate-y-[-10px]"
+                /></a>
             </div>
 
             <div className="flex flex-col items-center space-y-4 ">
               <h1>Ingles</h1>
               <a href="/assets/Cv-Andres-Rodriguez-Jimenez-I.pdf"
-
-              ><Image src={"/assets/pdf-icon.png"} alt="" height={90} width={90} 
-              className="transform transition-transform duration-300 hover:translate-y-[-10px]"
-              /></a>
+                  target="_blanked"
+              ><Image src={"/assets/pdf-icon.png"} alt="" height={90} width={90}
+                className="transform transition-transform duration-300 hover:translate-y-[-10px]"
+                /></a>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@ export default function Home() {
       </section>
 
       <section>
-        <div className="flex flex-col items-center bg-black bg-opacity-65 w-[100%] rounded-xl md:mt-0">
+        <div className="flex flex-col items-center bg-black bg-opacity-65 max-w-full rounded-xl md:mt-0 ">
           <h1 className="text-3xl whitespace-nowrap text-white p-5 text-center mb-2">Tech Stack</h1>
 
           <ul className="flex flex-wrap text-white gap-10 justify-center items-center text-center text-xl p-9">
@@ -106,7 +106,7 @@ export default function Home() {
 
           <div className="flex flex-col md:flex-row justify-around w-full">
             <div className="flex flex-col items-center">
-              <h1 className="text-3xl whitespace-nowrap text-white p-5 text-center mb-2">Deployment Platforms</h1>
+              <h1 className="text-3xl text-white p-5 text-center mb-2 ">Deployment Platforms</h1>
               <ul className="flex flex-wrap text-white gap-10 justify-center items-center text-center text-xl p-9">
                 <div className="space-y-4">
                   <h1>Vercel</h1>

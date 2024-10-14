@@ -1,3 +1,4 @@
+
 //interface
 import { IProject } from "@/src/interfaces/project"
 //Vendors
@@ -19,11 +20,11 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
            <Image src={image} alt={nombre} height={700} width={600} className="rounded-lg"/>
            
            </div>
-            <p className="text-white text-xl">{descripcion}</p>
-            <p><strong>FrontEnd:</strong> {front}</p>
-            <p><strong>BackEnd:</strong>{back}</p>
-            <p><strong>DataBase:</strong> {basededatos}</p>
-            <p><a href={repositorio} className="repolink p-4" target="_blank">View Repositorie</a></p>
+            <p className="text-white text-xl break-words">{descripcion}</p>
+            <p className="break-words"><strong>FrontEnd:</strong> {front}</p>
+            <p className="break-words"><strong>BackEnd:</strong>{back}</p>
+            <p className="break-words"><strong>DataBase:</strong> {basededatos}</p>
+            <p className="break-words"><a href={repositorio} className="repolink p-4 rounded-lg" target="_blank">View Repositorie</a></p>
         </div>
     )
 }
