@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
             sm:flex-row sm:gap-24 font-serif lg:gap-28 w-[100%]
             ">
                 <div className="flex-shrink-0 hover:bg-white hover:bg-opacity-35 rounded-full transition-colors duration-500 ">
-                    <Link href={"/"}><Image src={"/assets/genetic.png"} alt="Gentic logo" height={110} width={110} className="hover:cursor-pointer
+                    <Link href={"/"}><Image src={"/assets/genetic.png"} alt="Genetic logo" height={110} width={110} className="hover:cursor-pointer
                     transform transition-transform duration-500 hover:scale-75
                     "
                     /></Link>
@@ -36,7 +36,8 @@ const Navbar: React.FC = () => {
                 </div>
 
                 {/* Ícono de menú hamburguesa para pantallas pequeñas */}
-                <div className="md:hidden">
+                <div className="md:hidden flex flex-col items-center">
+                    <p>Menu</p>
                     <button onClick={toggleSidebar}>
                         <svg className="w-8 h-8 text-white hover:text-cyan-900" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
