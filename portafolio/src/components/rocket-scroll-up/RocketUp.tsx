@@ -46,6 +46,7 @@ const RocketUp = () => {
       ">
           <Image src={"/assets/up-chevron.png"} alt="go to top" height={40} width={40}
             className={`hover:scale-90 transition-transform duration-300 ${isRotating ? 'rotate':''}`}
+            onClick={scrollToTop}
           />
         </div>
       }
