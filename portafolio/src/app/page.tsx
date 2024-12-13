@@ -19,7 +19,7 @@ export default function Home() {
           <div className="flex flex-col mb-11 gap-20 text-xl text-white md:flex-row ">
 
             <div className="flex flex-col">
-              <h1 className="text-3xl  text-white p-5 text-center">Curriculum Vitae</h1>
+              <h1 className="text-3xl  text-white p-5 text-center">CV</h1>
 
               <div className="flex flex-row justify-center gap-8">
                 <div className="flex flex-col items-center space-y-4">
