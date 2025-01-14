@@ -7,7 +7,7 @@ export default function Home() {
       <section>
         <div className="flex flex-col items-center bg-white bg-opacity-5 backdrop-blur-lg w-[100%] rounded-xl md:mt-0 mt-64 mb-12">
           <h1 className="text-3xl whitespace-nowrap text-white p-5 text-center">About Me</h1>
-          <p className="text-xl  text-white p-5 text-center">(Cuento con nacionalidad española, estare viviendo en madrid en enero.)</p>
+          <p className="text-xl  text-white p-5 text-center">(Cuento con nacionalidad española, Vivo en Madrid.)</p>
 
           <p className="text-white text-left p-3 leading-loose text-base md:text-lg max-w-4xl">
             Mi nombre es Andres Rodriguez tengo 25 años, soy un desarrollador Full Stack Web apasionado por crear soluciones tecnológicas innovadoras y funcionales. Mi propuesta de valor radica en mi capacidad para abordar proyectos desde una perspectiva integral, combinando el desarrollo frontend y backend para construir aplicaciones escalables y de alto rendimiento. Recientemente, finalicé un bootcamp intensivo donde consolidé mis habilidades en tecnologías modernas como React, Next.js, Express, TypeScript, y MongoDB.
